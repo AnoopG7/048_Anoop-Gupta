@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anoop Gupta</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <img src="Pfp.jpg" alt="Profile Photo" class="profile-image">
+            <h1>Anoop Gupta</h1>
+            <h2>Web Developer & Designer</h2>
+            <div class="hero-cta">
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <a href="#projects" class="cta-button secondary">View My Work</a>
+            </div>
+        </div>
+    </section>
 
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm a passionate developer focused on creating beautiful, functional digital experiences. 
+                I enjoy exploring new technologies and developing projects that challenge my skills.
+                My goal is to build accessible, responsive, and engaging websites that make a lasting impression.
+            </p>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Expertise</h2>
+            <ul class="skills-list">
+                <li><i class="fa-brands fa-linux"></i> Linux</li>
+                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                <li><i class="fa-brands fa-python"></i> Python</li>
+                <li><i class="fa-brands fa-java"></i> Java</li>
+                <li><i class="fa-solid fa-database"></i> MySQL</li>
+                <li><i class="fa-brands fa-figma"></i> UI/UX Design</li>
+                <li><i class="fa-brands fa-git-alt"></i> Git</li>
+                <li><i class="fa-brands fa-figma"></i> Figma</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-tag">Web App</div>
+                    <h3>Interactive Dashboard</h3>
+                    <p>A responsive dashboard with data visualization components built using React and D3.js. Features real-time updates and customizable views.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>D3.js</span>
+                        <span>Firebase</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-tag">E-Commerce</div>
+                    <h3>Fashion Boutique</h3>
+                    <p>A modern e-commerce platform for a fashion retailer featuring a seamless checkout process, product filtering, and user account management.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-tag">Mobile App</div>
+                    <h3>Fitness Tracker</h3>
+                    <p>A cross-platform mobile application that helps users track workouts, set goals, and monitor progress through intuitive visualizations.</p>
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Redux</span>
+                        <span>GraphQL</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">Have a project in mind or want to chat? Send me a message and let's create something amazing together.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple scroll animation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
